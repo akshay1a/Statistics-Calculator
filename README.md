@@ -1,13 +1,15 @@
 # Statistics-Calculator
 Statistics Calculator module for all types of Stats calculations.
 
-Choose an option for calculation:
   Central tendency: 
-    1.	Mean, median and mode.
+
+    1.	Mean, median and mode.    
     2.	Standard deviation and Variance
+    
   Hypothesis testing:
-    3.	t-test for single mean
-    4.	t-test for difference of two means
+  
+    3.	t-test for single mean    
+    4.	t-test for difference of two means    
     5.	F-test for equality of population variances
     6.	Sample Mean
     7.	Sample Standard Deviation
@@ -16,7 +18,9 @@ Choose an option for calculation:
     10.	Difference of two independent sample means
     11.	Difference of two independent sample standard deviations
     12.	Difference of two independent sample proportions
+    
   Interval Estimation
+  
     13.	Confidence interval for a normal mean
     14.	Confidence interval for a normal mean when the variance is unknown
     15.	Confidence limits for standard deviation
