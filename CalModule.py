@@ -3,51 +3,7 @@ import pandas as pd
 import statistics
 
 
-# def main():
-#     def switch(op):
-#         mydict = {
-#             1: Central_Tendency(),
-#             2: t_test_for_single_mean(),
-#             3: T_Test_for_difference_of_two_means(),
-#             4: F_test(),
-#             5: Sample_Mean(),
-#             6: Sample_Standard_deviation(),
-#             7: Sample_Variance(),
-#             8: Sample_Proportion(),
-#             9: Sample_Populations_Means(),
-#             10: Sample_Standard_Deviations(),
-#             11: Sample_proportions(),
-#             12: Confidence_limits_for_a_normal_mean(),
-#             13: UnknownVariance(),
-#             14: Confidence_limits_for_standard_deviation(),
-#             15: Confidence_limits_for_Diff_of_populations_means()
-#         }
-#         return mydict.get(op, 'Thank You! Have a Good Day!')
-#
-#     print('''^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\n
-#             Central tendency:
-#             \t1.	Mean, median, mode, Standard deviation and Variance
-#             Hypothesis testing:
-#             \t2.	t-test for single mean
-#             \t3.	t-test for difference of two means
-#             \t4.	F-test for equality of population variances
-#             \t5.	Sample Mean
-#             \t6.	Sample Standard Deviation
-#             \t7.	Sample Variance
-#             \t8.	Sample Proportion
-#             \t9.	Difference of two independent sample means
-#             \t10.	Difference of two independent sample standard deviations
-#             \t11.	Difference of two independent sample proportions
-#             Interval Estimation
-#             \t12.	Confidence interval for a normal mean
-#             \t13.	Confidence interval for a normal mean when the variance is unknown
-#             \t14.	Confidence limits for standard deviation
-#             \t15.	Confidence limits for difference of population means
-#             EXIT:
-#             \tAny Other Key To Close The Program!
-#         ''')
-#     a = int(input('Choose a number to perform the calculations!  -->  '))
-#     print('\n', switch(a))
+
 def Central_Tendency():
     print('Central_Tendency')
     n = int(input("Enter the frequency number : "))
