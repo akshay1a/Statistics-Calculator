@@ -52,3 +52,5 @@ Statistics Calculator module for all types of Stats calculations.
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
+Ⓒ Copyrights Claimed by Akshay Arora and Linal Parikh.
