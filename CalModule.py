@@ -160,7 +160,7 @@ def F_test():
     print("Statistical Data Generated during the question\n", data)
     s = input("Save data to csv: Y/N? ")
 
-    if s == 'Y':
+    if s == 'Y' or s == 'y':
         loc = input(
             "Enter the location where you want to save the file!\nExample: C:/Users/akshay/Desktop/\nLocation:  ")
         file = input("Give your file a name!\nExample: data.xlsx, stats.xlsx\n FileName: ")
