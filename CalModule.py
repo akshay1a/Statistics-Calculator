@@ -84,33 +84,33 @@ def T_test_for_single_mean():
 
 
 def T_Test_difference_2means():
-    print("T - Test for difference of two means\n")
-    level_of_significance = int(input("Enter the level of significance "))
+   level_of_significance = int(input("Enter the level of significance "))
     level_of_significance = level_of_significance / 100
 
-    critical_value = st.t.ppf(1 - (level_of_significance / 2), df=int(input("Enter the value of df ")))
-    print("Critical Value = ", critical_value)
+    critical_value = st.norm.ppf(1 - (level_of_significance / 2))
+    # print("Critical Value = ", critical_value)
 
-    print("Test for difference of two means")
-    print("Sample 1")
-    n1 = int(input("Enter the value of n1 "))
-    x̄1 = int(input("Enter the value of x̄1 "))
-    s1 = int(input("Enter the value of s1 "))
+    z1 = critical_value
+    print("Z Critical Value", z1)
 
-    print("Sample 2")
-    n2 = int(input("Enter the value of n2 "))
-    x̄2 = int(input("Enter the value of x̄2 "))
-    s2 = int(input("Enter the value of s2 "))
+    print("Supermarket 1")
+    n1 = int(input("Enter the value of n1 = "))
+    x̄1 = int(input("Enter the value of x̄1 = "))
+    s1 = int(input("Enter the value of s1 = "))
 
-    (S) = 1 / (n1 + n2 - 2) * ((n1 * s1 ** 2) + (n2 * s2 ** 2))
-    print(S)
+    print("Supermarket 2")
+    n2 = int(input("Enter the value of n2 = "))
+    x̄2 = int(input("Enter the value of x̄2 = "))
+    s2 = int(input("Enter the Value of s2 = "))
 
-    if S < critical_value:
-        print("T calculated value is less than T Critical value. Therefore H0 is Accepted.")
+    z2 = (x̄1 - x̄2) / ((s1 ** 2) / n1 + ((s2) ** 2) / n2) ** (1 / 2)
+    print("Z = ", z2)
+
+    if z2 < z1:
+        print("Z calculated value is less than Z Critical value. Therefore Ho is Accepted.")
 
     else:
-        print("T Calculated value is greater than T Critical value. Therefore H0 is rejected")
-
+        print("Z Calculated value is greater than Z Critical value. Therefore Ho is rejected")
 
 def F_test():
     print('F_test\n')
