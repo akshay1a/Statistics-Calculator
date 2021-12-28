@@ -29,21 +29,23 @@ Statistics Calculator module for all types of Stats calculations.
     15.	Confidence limits for difference of population means
 
 ## Installation
-  ### Download This Repository As A Zipfile And Then You Can Extract The Module File For Your Use.
+  Download This Repository As A Zipfile And Then You Can Extract The Module File For Your Use.
   
-  ### Note : Module File Should Be In Same Folder With The File You Are Working On.
+  Note : Module File Should Be In Same Folder With The File You Are Working On.
   
 ## Usage
   ```Python
   import CalModule
   
-  # Calls the Central Tendency function which can print mean, median, mode, Std. and Variance.
+  # Calls the Central Tendency function which can print mean, median, 
+  # mode, Std. and Variance.
   m.Central_Tendency()
   
   # Calls the Central Tendency function which can print sample mean.
   m.Sample_Mean()
   
-  # Calls the function to print Confidence interval for a normal mean when the variance is unknown.
+  # Calls the function to print Confidence interval for a normal mean 
+  # when the variance is unknown.
   m.UnknownVariance()
   ```
 ## Contributing
