@@ -31,7 +31,7 @@ Statistics Calculator module for all types of Stats calculations.
 ## Installation
   Download This Repository As A Zipfile And Then You Can Extract The Module File For Your Use.
   
-  Note : Module File Should Be In Same Folder With The File You Are Working On.
+  **Note : Module File Should Be In Same Folder With The File You Are Working On.**
   
 ## Usage
   ```Python
@@ -53,4 +53,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
-Ⓒ Copyrights Claimed by Akshay Arora and Linal Parikh.
+***
+
+&copy; Copyrights Claimed by Akshay Arora and Linal Parikh.
