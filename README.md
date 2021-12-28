@@ -1,4 +1,5 @@
 # Statistics-Calculator
+This Calculator user the formulas and methods to find the statistical values listed.
 Statistics Calculator module for all types of Stats calculations.
 
   Central tendency: 
